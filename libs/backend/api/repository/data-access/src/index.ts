@@ -1,1 +1,1 @@
-export * from './lib/backend-api-repository-data-access.module';
+export * from './lib/backend-user-repository.repository';
