@@ -1,5 +1,5 @@
 # Base Image
-FROM node:latest
+FROM node
 
 # Set working directory
 WORKDIR /app
@@ -23,4 +23,4 @@ ENV PORT=3333
 EXPOSE 3333
 
 # Start the client application
-CMD ["yarn", "start:api"]
+CMD ["yarn", "start:backend"]
