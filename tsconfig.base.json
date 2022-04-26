@@ -27,6 +27,9 @@
       "@example/backend/api/service/feature": [
         "libs/backend/api/service/feature/src/index.ts"
       ],
+      "@example/backend/shared/services/prisma/data-access": [
+        "libs/backend/shared/services/prisma/data-access/src/index.ts"
+      ],
       "@example/backend/shell/feature": [
         "libs/backend/shell/feature/src/index.ts"
       ],
