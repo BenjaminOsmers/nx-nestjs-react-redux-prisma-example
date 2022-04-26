@@ -1,0 +1,24 @@
+{
+  "root": "libs/backend/api/api/shared/entities/data-acess",
+  "sourceRoot": "libs/backend/api/api/shared/entities/data-acess/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/backend/api/api/shared/entities/data-acess/**/*.ts"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/backend/api/api/shared/entities/data-acess"],
+      "options": {
+        "jestConfig": "libs/backend/api/api/shared/entities/data-acess/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

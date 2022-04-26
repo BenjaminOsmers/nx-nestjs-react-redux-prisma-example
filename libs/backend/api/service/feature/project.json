@@ -1,0 +1,22 @@
+{
+  "root": "libs/backend/api/service/feature",
+  "sourceRoot": "libs/backend/api/service/feature/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/backend/api/service/feature/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/backend/api/service/feature"],
+      "options": {
+        "jestConfig": "libs/backend/api/service/feature/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

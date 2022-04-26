@@ -14,7 +14,24 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@example/backend/api/api/feature": [
+        "libs/backend/api/api/feature/src/index.ts"
+      ],
+      "@example/backend/api/api/shared/entities/data-access": [
+        "libs/backend/api/api/shared/entities/data-access/src/index.ts"
+      ],
+      "@example/backend/api/repository/data-access": [
+        "libs/backend/api/repository/data-access/src/index.ts"
+      ],
+      "@example/backend/api/service/feature": [
+        "libs/backend/api/service/feature/src/index.ts"
+      ],
+      "@example/backend/shell/feature": [
+        "libs/backend/shell/feature/src/index.ts"
+      ],
+      "@example/frontend/shell": ["libs/frontend/shell/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,4 +1,14 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "backend": "apps/backend",
+    "backend-api-api-feature": "libs/backend/api/api/feature",
+    "backend-api-api-shared-entities-data-acess": "libs/backend/api/api/shared/entities/data-access",
+    "backend-api-repository-data-access": "libs/backend/api/repository/data-access",
+    "backend-api-service-feature": "libs/backend/api/service/feature",
+    "backend-shell-feature": "libs/backend/shell/feature",
+    "frontend": "apps/frontend",
+    "frontend-e2e": "apps/frontend-e2e",
+    "frontend-shell": "libs/frontend/shell"
+  }
 }
