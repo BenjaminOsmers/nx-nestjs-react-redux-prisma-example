@@ -2,8 +2,6 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
-import { FrontendStateStore } from '@example/frontend/state/store';
-
 export function App() {
   return (
     <>
@@ -22,9 +20,6 @@ export function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/store">FrontendStateStore</Link>
-          </li>
-          <li>
             <Link to="/page-2">Page 2</Link>
           </li>
         </ul>
@@ -39,7 +34,6 @@ export function App() {
             </div>
           }
         />
-        <Route path="/store" element={<FrontendStateStore />} />
         <Route
           path="/page-2"
           element={
